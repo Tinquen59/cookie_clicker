@@ -1,0 +1,100 @@
+.Container-options {
+    background: url('../images/background-cookieClicker.jpg');
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+/* store */
+.Options__store {
+}
+
+.Options__store .Options__store--title {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+
+/* choose action (buy or sell / par 1 - 10 - 100 */
+.Options__chooseAction {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #fff;
+    /* background: rgba(0, 0, 0, 0.5); */
+    background-color: #171717;
+}
+
+.Options__chooseAction p {
+    margin: 0;
+    cursor: pointer;
+}
+
+.Options__chooseAction .Center--chooseAction {
+    margin: auto 0;
+}
+
+.Options__chooseAction .chooseAction--isActive {
+    text-shadow: 0 0 10px #fff;
+}
+
+/* améliorations pour le cookie */
+.Options__improve .Improve__clicker {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: cursive;
+    width: 100%;
+    height: 70px;
+    background: linear-gradient(45.34deg, #4F4F4F 5.66%, #ECD3A1 94.35%);
+    border: 5px solid gray;
+    cursor: pointer;
+}
+
+.Options__improve .Improve__clicker img {
+    height: 100%;
+}
+
+.Options__improve .Improve__info {
+    width: 60%;
+    text-align: left;
+}
+
+.Options__improve .Improve__clicker .Improve__clicker--name {
+    color: #fff;
+    margin: 0;
+    font-size: 1.75rem;
+}
+
+.Options__improve .Improve__clicker .Improve__clicker--price {
+    font-weight: 700;
+    margin: 0;
+}
+
+    /* couleur pour savoir si on peut acheter l'amélioration */
+.Improve--danger{
+    color: #e6423d;
+}
+
+.Improve--success{
+    color: #5cb85c;
+}
+    /*  */
+
+.Options__improve .Improve__clicker .Improve__clicker--number {
+    margin: 0;
+    font-size: 3rem;
+    margin-right: 15px;
+}
+
+.Improve__clicker--priceImg {
+    width: 14px;
+}
+
+/* 
+    bootstrap color :
+        - success : #5cb85c
+        - danger : #d9534f
+*/

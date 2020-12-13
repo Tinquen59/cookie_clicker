@@ -1,0 +1,60 @@
+.container-cookie {
+    background: url('../images/background-cookieClicker.jpg');
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* pseudo */
+.cookie__pseudo {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: 89;
+}
+
+.cookie__pseudo .cookie__pseudo--title {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    color: #fff;
+    padding: 2px 18px;
+    cursor: pointer;
+}
+
+/* les infos sur le nombres de cookies et de clicks par seconde */
+.cookie__info {
+    position: relative;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+    font-size: 1.5rem;
+    z-index: 89;
+}
+
+.cookie__info .cookie__info--counter {
+}
+
+/* l'image du cookie */
+.cookie__jeux {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: calc(100% / 3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cookie__jeux .cookie__clicker {
+}
+
+.cookie__jeux .cookie__clicker .cookie__clicker--img {
+    width: 70%;
+    height: 70%;
+    cursor: pointer;
+    margin-top: auto;
+    margin-bottom: auto;
+    z-index: 1;
+}

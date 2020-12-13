@@ -1,0 +1,24 @@
+.Container__superCookie {
+    position: relative;
+    background: url(../images/space_background.png);
+    height: 100%;
+    width: 100%;
+}
+
+.Container__superCookie .SuperCookie__header {
+    position: relative;
+    padding: 20px 25px;
+}
+
+.Container__superCookie .SuperCookie__header .SuperCookie--title {
+     margin: 0;
+     color: #fff;
+     text-align: center;
+}
+
+.Container__superCookie .SuperCookie--img {
+    width: 20px;
+    position: absolute;
+    z-index: 91;
+    cursor: pointer;
+}
